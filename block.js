@@ -7,6 +7,6 @@ class Block {
         var angle = this.body.angle
         push();
         rotate(angle);
-        pop;
+        pop();
     }
 }
