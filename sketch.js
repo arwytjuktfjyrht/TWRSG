@@ -25,8 +25,7 @@ function setup() {
 
   block9=new Block(660,340,30,30);
   
-  ground=new Block(660,420,150,10);
-  Matter.Body.setStatic(ground, false);
+  ground=new Ground(660,420,150,10);
 }
 
 function draw() {
